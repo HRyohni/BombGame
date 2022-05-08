@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bombgame</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="">
+    <div class="bac">
+        <div class="main">
+            <h1 id="test">BombGame</h1>
+        </div>
+        <div class="align">
+            <h2>score:</h2>
+            <h1 id="score">0</h1>
+            <h3 id="rj">❤ ❤ ❤</h3>
+        </div>
+        <div class="align">
+            <div class="image">
+                <img src="bomb.png" alt="">
+            </div>
+        </div>
+
+        <div class="align">
+            <h3>Word that includes:</h3>
+            <h2 id="randomLetter" onchange="readTextFile()">letter</h2>
+            <input type="text" id="edittext" name="fname"><br><br>
+            <button onclick="readTextFile()">Find</button>
+            <button id="startBtn" onclick="ranomLetterGive()">Start</button>
+
+
+        </div>
+    </div>
+
+</body>
+
+
+<script src=" app.js "></script>
+
+</html>
